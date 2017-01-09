@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.5
 MAINTAINER jetz <jet.zheung@gmail.com>
 
 ADD etcd /usr/bin/
