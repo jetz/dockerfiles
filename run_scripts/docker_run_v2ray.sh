@@ -7,7 +7,7 @@ docker run -it -d --name v2ray \
     v2ray/official v2ray -config=/etc/v2ray/config.json
 
 ###########################################################
-# server config
+# /etc/v2ray/config.json
 ###########################################################
 #{
 #  "inbounds": [
