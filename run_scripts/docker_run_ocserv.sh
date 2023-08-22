@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 生成密码
-docker run -it --rm \
+docker run -it --rm --privileged \
     -e NO_TEST_USER=1 \
     -v /etc/ocserv:/etc/ocserv tommylau/ocserv:0.12.1 ocpasswd -c /etc/ocserv/ocpasswd -g "Route,All" jetz
 
